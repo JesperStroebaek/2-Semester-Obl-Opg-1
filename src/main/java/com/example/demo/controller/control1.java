@@ -10,8 +10,14 @@ import javax.swing.text.html.HTML;
 
 @Controller
 public class control1 {
+    @GetMapping("/")
+    public String mainPage(){
+        return "mainPage";
+    }
+
+
     @GetMapping("/index")
-    public String index(HTML index){ return "index"; }
+    public String index(HTML index){ return "mainPage"; }
 
 
 
