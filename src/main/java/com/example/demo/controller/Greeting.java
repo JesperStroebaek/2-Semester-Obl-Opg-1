@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.demo.controller;
 
 public class Greeting {
     private final long id;
