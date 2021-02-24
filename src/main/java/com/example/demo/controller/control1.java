@@ -16,8 +16,8 @@ public class control1 {
     }
 
 
-    @GetMapping("/index")
-    public String index(HTML index){ return "mainPage"; }
+    @GetMapping("/ghost")
+    public String ghostform(HTML ghostform){ return "ghostform"; }
 
 
 
