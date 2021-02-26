@@ -1,11 +1,9 @@
 package com.example.demo.controller;
 
+import org.springframework.boot.context.properties.source.ConfigurationPropertyName;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-
-
-import javax.swing.text.html.HTML;
-
+import org.springframework.web.bind.annotation.PostMapping;
 
 
 @Controller
@@ -16,8 +14,7 @@ public class control1 {
     }
 
 
-    @GetMapping("/ghost")
-    public String ghostform(HTML ghostform){ return "ghostform"; }
+
 
 
 
