@@ -1,0 +1,7 @@
+﻿Index filen til 1 opg 2 semester.
+
+Index.html.
+
+Link til tomcatserveren endte med at hedde
+
+http://localhost:8080/myPage/
