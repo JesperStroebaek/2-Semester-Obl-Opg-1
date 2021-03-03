@@ -1,0 +1,100 @@
+
+body  {
+    background-color: #9aada6;
+}
+
+
+.Site{
+    max-width: 100%;
+    float: none;
+    margin: auto;
+    background-color: snow;
+    padding: 10px;
+    border-style:double;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-weight: 500;
+    margin: auto;
+}
+p {
+
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    color: black;
+    font-weight: 500;
+}
+a {
+    margin: auto;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+ul li {
+    margin: auto;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    list-style: none;
+    font-weight: 500;
+}
+
+
+
+header{
+    width: 100%;
+    display: block;
+}
+
+header nav{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav a {
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    color: snow;
+    background-color: black;}
+
+main {
+    display: block;
+    float: left;
+    width: 70%;
+    min-height: 300px;
+}
+
+aside {
+    display: block;
+    float: right;
+    width: 28%;
+    min-height: 300px;
+}
+
+section {
+    display: block;
+    float: bottom;
+    width: 28%;
+    min-height: 250px;
+}
+
+#footer {
+
+    display: inline-block;
+    float: bottom;
+    width: 100%;
+    margin: auto;
+}
